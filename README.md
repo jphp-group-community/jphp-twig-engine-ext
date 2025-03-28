@@ -4,6 +4,10 @@
 
 Twig template engine for JPHP.
 
+```
+  twig -> jphp-twig-engine-ext // Заменить зависимость
+```
+
 ## Install
 
 ```bash
