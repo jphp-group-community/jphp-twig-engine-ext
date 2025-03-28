@@ -1,6 +1,6 @@
-name: twig
+name: jphp-twig-engine-ext
 version: 1.0.3
-description: Twig template engine for JPHP
+description: Движок шаблонов Twig для JPHP
 
 plugins:
 - Hub
@@ -12,11 +12,11 @@ deps:
 
 devDeps:
   jphp-core: '*'
-  tester: '*'
+  #tester: '*'
 
 tasks:
   build+test:
-    description: Build and run tests.
+    description: Сборка и запуск тестов.
     depends-on: ['build', 'test']
 
 sources:
